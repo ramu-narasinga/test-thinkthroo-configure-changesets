@@ -1,0 +1,24 @@
+{
+    "name": "test-thinkthroo-configure-changesets",
+    "version": "1.0.0",
+    "description": "A simple test package to try thinkthroo CLI",
+    "main": "index.js",
+    "keywords": [
+        "thinkthroo",
+        "test",
+        "cli"
+    ],
+    "author": "Ramu Narasinga",
+    "license": "MIT",
+    "scripts": {
+        "changeset:init": "npx changeset init",
+        "changeset:add": "npx changeset add"
+    },
+    "dependencies": {
+        "test-thinkthroo-configure-changesets": "file:",
+        "thinkthoroo-test-package": "file:"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.29.2"
+    }
+}
