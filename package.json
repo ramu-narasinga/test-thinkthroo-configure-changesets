@@ -10,6 +10,10 @@
     ],
     "author": "Ramu Narasinga",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ramu-narasinga/test-thinkthroo-configure-changesets.git"
+    },
     "scripts": {
         "changeset:init": "npx changeset init",
         "changeset:add": "npx changeset add"
